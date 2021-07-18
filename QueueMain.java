@@ -9,7 +9,12 @@ public class QueueMain {
         myQueue.enQueue(70);
         myQueue.printQueue();
         System.out.println("Top  of the element is " + myQueue.peek());
+        myQueue.deQueue();
         myQueue.printQueue();
-   }
+        myQueue.deQueue();
+        myQueue.printQueue();
+        myQueue.deQueue();
+        myQueue.printQueue();
+    }
 
 }

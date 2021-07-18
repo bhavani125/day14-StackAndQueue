@@ -15,5 +15,9 @@ public class Queue {
     public int peek() {
         return list.head.data;
     }
+    //Creating deQueue() to delete the elements
+    public void deQueue(){
+        list.popAtFirst();
+    }
 }
 
