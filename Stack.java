@@ -1,7 +1,16 @@
 package com.ds;
 
 public class Stack {
-    public static void main(String[] args) {
-        System.out.println("Welcome to stack and queue");
+    LinkedList list=new LinkedList();
+
+    public void push(int data){
+        list.add(data);
+    }
+    public void printStack(){
+        list.print();
+    }
+
+    public int peek() {
+        return list.head.data;
     }
 }
