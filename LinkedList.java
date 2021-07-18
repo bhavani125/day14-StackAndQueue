@@ -29,6 +29,16 @@ public class LinkedList {
 
         }
     }
+    // Creating popAtFirst() delete the first element of the linked list
+    public int popAtFirst() {
+        int popData = 0;
+        if (head == null) {
+            System.out.println("Stack Over Flow");
+        }
+        popData = head.data;
+        head = head.next;
+        return popData;
+    }
     //creating print method
     public void print() {
         //Node current will point to head
@@ -45,4 +55,5 @@ public class LinkedList {
         }
         System.out.println();
     }
+
 }

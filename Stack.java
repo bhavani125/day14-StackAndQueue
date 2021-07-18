@@ -13,4 +13,8 @@ public class Stack {
     public int peek() {
         return list.head.data;
     }
+    public void pop(){
+        list.popAtFirst();
+    }
 }
+
